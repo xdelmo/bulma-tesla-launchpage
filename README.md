@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [@GitHub](https://github.com/xdelmo/bulma-tesla-launchpage)
-- Live Site URL: [@GitHub](https://htmlpreview.github.io/?https://github.com/xdelmo/bulma-tesla-launchpage/blob/master/index.html)
+- Live Site URL: [@GitHub](https://zesty-wisp-df970f.netlify.app/)
 
 ## My process
 
