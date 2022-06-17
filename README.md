@@ -52,7 +52,7 @@ I'd like to:
 
 ### Useful resources
 
--[Bulma](https://bulma.io/) - Open source CSS framework that provides ready-to-use frontend components
+- [Bulma](https://bulma.io/) - Open source CSS framework that provides ready-to-use frontend components
 
 - [CodePen](https://codepen.io/kanishkkunal/pen/QWGzBwz) - Glassmorphism CSS Buttons
 
