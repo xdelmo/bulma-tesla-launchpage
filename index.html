@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/grid.css">
+    <!-- New css classes to help building navbar at the top -->
+    <link rel="stylesheet" href="styles/helpers.css">
+
+    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+
+    <title>Scrimba | Bulma - Tesla Launchpage</title>
+
+
+    <style>
+        .hero {
+            background: black url(images/hero-1.jpg) center / cover;
+        }
+
+        @media (max-width: 1024px) {
+            .hero {
+                background: black url(images/hero-2.jpg) center / cover;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                background: black url(images/hero-3.jpg) center / cover;
+            }
+        }
+
+        #navbar-logo {
+            width: 6.25rem;
+            height: 1rem;
+        }
+
+        #navbar-hamburger {
+            width: 1rem;
+            height: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- .hero -->
+        <section class="hero is-fullheight">
+
+            <!-- .hero-head -->
+            <nav class="hero-head">
+                <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+                    <div class="column left">
+                        <figure class="navbar-item image">
+                            <a href="#"><img id="navbar-logo" src="images/tesla.svg" alt="tesla logo"></a>
+                        </figure>
+                    </div>
+                    <div class="column center desktop is-size-7">
+                        <!-- Navbar-item class to space them out -->
+                        <a href="#">
+                            <p class="navbar-item has-text-black">Model S</p>
+                        </a>
+                        <a href="#">
+                            <p class="navbar-item has-text-black">Model X</p>
+                        </a>
+                        <a href="#">
+                            <p class="navbar-item has-text-black">Model 3</p>
+                        </a>
+                        <!-- Simulate active page changing text color -->
+                        <a href="#">
+                            <p class="navbar-item has-text-white">ROADSTER</p>
+                        </a>
+                        <a href="#">
+                            <p class="navbar-item has-text-black">Energy</p>
+                        </a>
+                    </div>
+                    <div class="column right is-size-7">
+                        <a href="#">
+                            <p class="navbar-item has-text-black desktop">Shop </p>
+                        </a>
+                        <a href="#">
+                            <p class="navbar-item has-text-black desktop">Sign In </p>
+                        </a>
+                        <figure class="navbar-item image has-text-black center is-hidden-desktop">
+                            <i id="navbar-hamburger" class="fas fa-bars"></i>
+                        </figure>
+                    </div>
+                </div>
+            </nav>
+            <!-- /.hero-head -->
+
+            <!-- .hero-body -->
+            <header class="hero-body">
+                <div class="is-overlay has-text-centered single-spaced" style="top: 82px;">
+                    <h1 class="title is-1 has-text-black shad">Roadster</h1>
+                </div>
+            </header>
+            <!-- /.hero-body -->
+
+
+            <!-- .hero-foot -->
+            <div class="hero-foot center" style="padding: 2rem;">
+                <div id="grid" style="width: 768px;">
+                    <div id="a" class="center-column">
+                        <p class="has-text-centered has-text-white">
+                            ​The quickest car in the world, with record-setting<br>
+                            acceleration, range and performance.
+                        </p>
+                    </div>
+                    <div id="b" class="center-column">
+                        <p class="title has-text-white">
+                            <i class="fas fa-tachometer-alt has-text-grey-light"
+                                style="width: 0.75em; height: 0.75em;"></i>
+                            1.9<span class="is-size-5">s</span>
+                        </p>
+                        <p class="subtitle has-text-white is-7">0-60 mph</p>
+                    </div>
+                    <div id="c" class="center-column" style="border-left: 1px solid gray;">
+                        <p class="title has-text-white"><span class="is-size-5">+</span>250<span
+                                class="is-size-5">mph</span></p>
+                        <p class="subtitle is-7 has-text-white">Top Speed</p>
+                    </div>
+                    <div id="d" class="center-column" style="border-left: 1px solid gray;">
+                        <p class="title has-text-white">620</span><span class="is-size-5">mi</span></p>
+                        <p class="subtitle is-7 has-text-white">Mile Range</p>
+                    </div>
+                    <div id="e" class="center-column">
+                        <a class="button has-text-weight-bold glass-button" style="width: 100%;">
+                            Reserve Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.hero-foot -->
+
+            <header class="hero-arrow center">
+                <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules"
+                    data-ca3_icon=""></a>
+
+            </header>
+        </section>
+        <!-- /.hero -->
+    </main>
+
+
+    <!-- <div class="center"></div>
+    <footer>
+        <div class="attribution">
+            <span> Project by <strong><a href="https://scrimba.com/" target="_blank">Scrimba</a></strong>.<br>
+                Coded by <strong><a href="https://github.com/xdelmo" target="_blank">Emanuele Del
+                        Monte</a></strong>.</span>
+        </div>
+    </footer> -->
+
+</body>
+
+</html>
