@@ -40,9 +40,18 @@
             height: 1rem;
         }
 
+        /* 
         #navbar-hamburger {
+            box-sizing: content-box;
             width: 1rem;
             height: 1rem;
+            background-color: hsla(0, 0%, 50%, 0.25);
+            padding: 5px;
+        } */
+
+        #navbar-menu {
+            background-color: hsla(0, 0%, 50%, 0.25);
+            border-radius: 100vmax;
         }
     </style>
 </head>
@@ -86,9 +95,12 @@
                         <a href="#">
                             <p class="navbar-item has-text-black desktop">Sign In </p>
                         </a>
-                        <figure class="navbar-item image has-text-black center is-hidden-desktop">
+                        <a href="#">
+                            <p id="navbar-menu" class="navbar-item has-text-black center is-hidden-desktop">Menu</p>
+                        </a>
+                        <!-- <figure class="navbar-item image center is-hidden-desktop">
                             <i id="navbar-hamburger" class="fas fa-bars"></i>
-                        </figure>
+                        </figure> -->
                     </div>
                 </div>
             </nav>
@@ -104,10 +116,11 @@
 
 
             <!-- .hero-foot -->
-            <div class="hero-foot center" style="padding: 2rem;">
+            <div class="hero-foot center has-text-centered" style="padding: 2rem;padding-bottom: 0;">
+                <!-- .grid -->
                 <div id="grid" style="width: 768px;">
                     <div id="a" class="center-column">
-                        <p class="has-text-centered has-text-white">
+                        <p class="has-text-centered has-text-white is-hidden-mobile">
                             ​The quickest car in the world, with record-setting<br>
                             acceleration, range and performance.
                         </p>
@@ -116,33 +129,34 @@
                         <p class="title has-text-white">
                             <i class="fas fa-tachometer-alt has-text-grey-light"
                                 style="width: 0.75em; height: 0.75em;"></i>
-                            1.9<span class="is-size-5">s</span>
+                            1.9 <span class="is-size-5">s</span>
                         </p>
                         <p class="subtitle has-text-white is-7">0-60 mph</p>
                     </div>
                     <div id="c" class="center-column" style="border-left: 1px solid gray;">
-                        <p class="title has-text-white"><span class="is-size-5">+</span>250<span
+                        <p class="title has-text-white"><span class="is-size-5">+</span>250 <span
                                 class="is-size-5">mph</span></p>
                         <p class="subtitle is-7 has-text-white">Top Speed</p>
                     </div>
                     <div id="d" class="center-column" style="border-left: 1px solid gray;">
-                        <p class="title has-text-white">620</span><span class="is-size-5">mi</span></p>
+                        <p class="title has-text-white">620 </span><span class="is-size-5">mi</span></p>
                         <p class="subtitle is-7 has-text-white">Mile Range</p>
                     </div>
                     <div id="e" class="center-column">
-                        <a class="button has-text-weight-bold glass-button" style="width: 100%;">
+                        <a href="#" class="button has-text-weight-bold glass-button" style="width: 100%;">
                             Reserve Now
                         </a>
                     </div>
                 </div>
+                <!-- /.grid -->
+
             </div>
             <!-- /.hero-foot -->
+            <div class="is-flex center" style="padding: 1em;">
+                <i class="fas fa-chevron-down has-text-white"></i>
+            </div>
 
-            <header class="hero-arrow center">
-                <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules"
-                    data-ca3_icon=""></a>
 
-            </header>
         </section>
         <!-- /.hero -->
     </main>

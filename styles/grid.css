@@ -22,6 +22,10 @@
   grid-row-gap: 1rem;
 }
 
+#grid .center-column {
+  padding-inline: 0.2em;
+}
+
 @media (max-width: 512px) {
   #grid {
     grid-template-areas:
