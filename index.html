@@ -51,7 +51,7 @@
 
         #navbar-menu {
             background-color: hsla(0, 0%, 50%, 0.25);
-            border-radius: 100vmax;
+            backdrop-filter: blur(5px);
         }
     </style>
 </head>
@@ -64,11 +64,15 @@
             <!-- .hero-head -->
             <nav class="hero-head">
                 <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+
                     <div class="column left">
                         <figure class="navbar-item image">
                             <a href="#"><img id="navbar-logo" src="images/tesla.svg" alt="tesla logo"></a>
                         </figure>
                     </div>
+
+
+
                     <div class="column center desktop is-size-7">
                         <!-- Navbar-item class to space them out -->
                         <a href="#">
@@ -82,27 +86,67 @@
                         </a>
                         <!-- Simulate active page changing text color -->
                         <a href="#">
-                            <p class="navbar-item has-text-white">ROADSTER</p>
+                            <p class="navbar-item has-text-white">Roadster</p>
                         </a>
                         <a href="#">
                             <p class="navbar-item has-text-black">Energy</p>
                         </a>
                     </div>
+
                     <div class="column right is-size-7">
                         <a href="#">
-                            <p class="navbar-item has-text-black desktop">Shop </p>
+                            <p class="navbar-item has-text-black desktop">Shop</p>
                         </a>
                         <a href="#">
-                            <p class="navbar-item has-text-black desktop">Sign In </p>
+                            <p class="navbar-item has-text-black desktop">Sign In</p>
                         </a>
                         <a href="#">
                             <p id="navbar-menu" class="navbar-item has-text-black center is-hidden-desktop">Menu</p>
                         </a>
-                        <!-- <figure class="navbar-item image center is-hidden-desktop">
+
+                        <!-- Mobile Menu -->
+                        <ul class="nav-list active is-size-6">
+                            <div class="navbar-item close">
+                                <i class="fas fa-times"></i>
+                            </div>
+
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Model S</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Model X</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Model 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Roadster</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Energy</a>
+                            </li>
+
+                            <hr>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Sign Up</a>
+                            </li>
+
+                        </ul>
+                        <!-- /.Mobile Menu -->
+                    </div>
+
+
+                    <!-- <figure class="navbar-item image center is-hidden-desktop">
                             <i id="navbar-hamburger" class="fas fa-bars"></i>
                         </figure> -->
-                    </div>
+
                 </div>
+
             </nav>
             <!-- /.hero-head -->
 
@@ -119,8 +163,8 @@
             <div class="hero-foot center has-text-centered" style="padding: 2rem;padding-bottom: 0;">
                 <!-- .grid -->
                 <div id="grid" style="width: 768px;">
-                    <div id="a" class="center-column">
-                        <p class="has-text-centered has-text-white is-hidden-mobile">
+                    <div id="a" class="center-column ">
+                        <p class="has-text-centered has-text-white">
                             ​The quickest car in the world, with record-setting<br>
                             acceleration, range and performance.
                         </p>
@@ -144,7 +188,7 @@
                     </div>
                     <div id="e" class="center-column">
                         <a href="#" class="button has-text-weight-bold glass-button" style="width: 100%;">
-                            Reserve Now
+                            Custom order
                         </a>
                     </div>
                 </div>
@@ -152,7 +196,7 @@
 
             </div>
             <!-- /.hero-foot -->
-            <div class="is-flex center" style="padding: 1em;">
+            <div class="is-flex center" style="padding: 1em; padding-top: 0.5;">
                 <i class="fas fa-chevron-down has-text-white"></i>
             </div>
 
@@ -170,7 +214,7 @@
                         Monte</a></strong>.</span>
         </div>
     </footer> -->
-
+    <script src="/scripts/index.js"></script>
 </body>
 
 </html>
