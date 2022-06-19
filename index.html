@@ -40,15 +40,6 @@
             height: 1rem;
         }
 
-        /* 
-        #navbar-hamburger {
-            box-sizing: content-box;
-            width: 1rem;
-            height: 1rem;
-            background-color: hsla(0, 0%, 50%, 0.25);
-            padding: 5px;
-        } */
-
         #navbar-menu {
             background-color: hsla(0, 0%, 50%, 0.25);
             backdrop-filter: blur(5px);
@@ -105,9 +96,12 @@
                         </a>
 
                         <!-- Mobile Menu -->
-                        <!-- <span id="empty-div" class="active"></span> -->
-                        <ul class="nav-list is-size-6">
-                            <div class="navbar-item close">
+
+                        <!-- Empty left div to close mobile menu on click -->
+                        <div id="navListHalfEmpty" class="is-hidden-desktop"></div>
+
+                        <ul id="navList" class="nav-list is-size-6">
+                            <div id="closeIcon" class="navbar-item close">
                                 <i class="fas fa-times"></i>
                             </div>
 
@@ -142,10 +136,6 @@
                     </div>
 
 
-                    <!-- <figure class="navbar-item image center is-hidden-desktop">
-                            <i id="navbar-hamburger" class="fas fa-bars"></i>
-                        </figure> -->
-
                 </div>
 
             </nav>
@@ -178,12 +168,12 @@
                         </p>
                         <p class="subtitle has-text-white is-7">0-60 mph</p>
                     </div>
-                    <div id="c" class="center-column" style="border-left: 1px solid gray;">
+                    <div id="c" class="center-column">
                         <p class="title has-text-white"><span class="is-size-5">+</span>250 <span
                                 class="is-size-5">mph</span></p>
                         <p class="subtitle is-7 has-text-white">Top Speed</p>
                     </div>
-                    <div id="d" class="center-column" style="border-left: 1px solid gray;">
+                    <div id="d" class="center-column">
                         <p class="title has-text-white">620 </span><span class="is-size-5">mi</span></p>
                         <p class="subtitle is-7 has-text-white">Mile Range</p>
                     </div>
