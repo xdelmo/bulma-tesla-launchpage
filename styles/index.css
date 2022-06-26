@@ -69,8 +69,7 @@ section {
   cursor: pointer;
   text-transform: uppercase;
   padding: 1.25em 1em;
-  letter-spacing: 1px;
-  transition: all 250ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .glass-button:hover,
@@ -79,6 +78,20 @@ section {
   color: black;
 }
 
+/* .glass-button-white{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid white;
+}
+
+.glass-button-white:hover,
+.glass-button-white:focus{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+} */
+
+.section-buttons * {
+  margin: 1em;
+}
 /* ---------------------- */
 /* Components             */
 /* ---------------------- */
@@ -192,9 +205,9 @@ nav a p:hover {
 
 .fa-chevron-down {
   cursor: pointer;
-  animation: fa-chevron-down_fade_move_down 3s ease-in-out infinite;
-  -moz-animation: fa-chevron-down_fade_move_down 3s ease-in-out infinite;
-  -webkit-animation: fa-chevron-down_fade_move_down 3s ease-in-out infinite;
+  animation: fa-chevron-down_fade_move_down 2s ease-in-out infinite;
+  -moz-animation: fa-chevron-down_fade_move_down 2s ease-in-out infinite;
+  -webkit-animation: fa-chevron-down_fade_move_down 2s ease-in-out infinite;
 }
 
 @keyframes fa-chevron-down_fade_move_down {
@@ -249,6 +262,7 @@ nav a p:hover {
 
 .video-introduction {
   padding: 3em 0;
+  padding-top: 6em;
 }
 
 video {

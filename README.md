@@ -48,13 +48,16 @@ Users should be able to:
 
 I'd like to:
 
-- Implement responsive Navbar
+- ~~Implement responsive Navbar~~
+- Add more content to the page
+- Add a Client-side form validation
 
 ### Useful resources
 
 - [Bulma](https://bulma.io/) - Open source CSS framework that provides ready-to-use frontend components
-
 - [CodePen](https://codepen.io/kanishkkunal/pen/QWGzBwz) - Glassmorphism CSS Buttons
+- [SiteUptime](https://www.siteuptime.com/blog/2019/04/05/6-tips-on-how-to-make-videos-load-faster-on-your-site/) - How to make videos load faster on the web
+- [ConvertPoint](https://codepen.io/kanishkkunal/pen/QWGzBwz)&[CloudConvert](https://cloudconvert.com/mp4-to-webm) - To compress and convert video to WEBM
 
 ## Author
 

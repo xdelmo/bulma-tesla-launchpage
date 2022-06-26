@@ -27,7 +27,7 @@
   padding-inline: 0.2em;
 } */
 
-@media (max-width: 512px) {
+@media (max-width: 620px) {
   #grid {
     grid-template-areas:
       "a a a"

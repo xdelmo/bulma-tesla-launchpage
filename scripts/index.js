@@ -15,16 +15,8 @@ closeIcon.addEventListener("click", () => {
   navListHalfEmpty.classList.remove("is-left");
 });
 
-// Close menu on click
+// Close menu on click outside navbar
 navListHalfEmpty.addEventListener("click", () => {
   navList.classList.remove("active");
   navListHalfEmpty.classList.remove("is-left");
 });
-
-// Close menu on click outside navList
-// window.addEventListener("click", function (e) {
-//   if (!navList.contains(e.target)) {
-//      navList.classList.remove("active");
-
-//   }
-// });

@@ -17,12 +17,23 @@
 .top {
   align-items: flex-start;
 }
+
 .right {
   justify-content: flex-end;
 }
+
 .bottom {
   align-items: flex-end;
 }
+
+.bottom-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: min(290px, 430px);
+  margin: auto;
+}
+
 .left {
   justify-content: flex-start;
 }
