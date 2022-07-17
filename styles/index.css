@@ -335,7 +335,7 @@ footer {
 .loader {
   width: 4em;
   height: 4em;
-  border: 5px solid white;
+  border: 5px solid rgba(255, 255, 255, 0.5);
   border-top-color: black;
   border-radius: 50%;
   animation: loading 1.5s linear infinite;
