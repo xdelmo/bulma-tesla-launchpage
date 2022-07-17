@@ -20,3 +20,14 @@ navListHalfEmpty.addEventListener("click", () => {
   navList.classList.remove("active");
   navListHalfEmpty.classList.remove("is-left");
 });
+
+// Loading animation timeout
+setTimeout(() => {
+  const loader = document.getElementById("loader-container");
+  const main = document.getElementById("main");
+  const footer = document.getElementById("footer");
+  // Hide animation div and display all website to prevent scrolling on animation
+  loader.style.display = "none";
+  main.style.display = "block";
+  footer.style.display = "block";
+}, 1500);

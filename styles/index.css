@@ -38,6 +38,10 @@ body {
     "Helvetica Neue", Arial, sans-serif;
 }
 
+#main {
+  display: none;
+}
+
 h1,
 h2 {
   text-shadow: white 0px 0px 100px;
@@ -305,6 +309,46 @@ footer {
   padding: 3rem 1.5rem;
 }
 
+#footer {
+  display: none;
+}
+
 /* ---------------------- */
 /* Media queries          */
 /* ---------------------- */
+
+/* ---------------------- */
+/* Loading animation      */
+/* ---------------------- */
+
+#loader-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 50%);
+  z-index: 100;
+}
+
+.loader {
+  width: 4em;
+  height: 4em;
+  border: 5px solid white;
+  border-top-color: black;
+  border-radius: 50%;
+  animation: loading 1.5s linear infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.loader-icon {
+  position: absolute;
+  padding: 10px;
+  transform: scale(0.2);
+}
