@@ -305,12 +305,9 @@ form {
 
 /* Footer */
 
-footer {
-  padding: 3rem 1.5rem;
-}
-
 #footer {
   display: none;
+  padding: 3rem 1.5rem;
 }
 
 /* ---------------------- */
