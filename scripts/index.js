@@ -31,7 +31,7 @@ function closeMenu() {
 
 // Close menu on click
 closeIcon.addEventListener("click", () => {
-  closeMenu;
+  closeMenu();
 });
 
 // Close menu on click outside navbar

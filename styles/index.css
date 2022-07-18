@@ -143,6 +143,7 @@ nav a p:hover {
 .close {
   display: flex;
   justify-content: flex-end;
+  cursor: pointer;
   /* margin-top: 0.25em; */
 }
 
