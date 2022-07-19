@@ -63,6 +63,7 @@ I'd like to:
 - [ConvertPoint](https://codepen.io/kanishkkunal/pen/QWGzBwz)&[CloudConvert](https://cloudconvert.com/mp4-to-webm) - To compress and convert video to WEBM
 - [StackOverflow](https://stackoverflow.com/questions/67480259/excluding-a-child-element-from-being-affected-by-a-css-animation) - Excluding a child element from being affected by a CSS animation
 - [StackOverflow](https://stackoverflow.com/questions/71503820/how-to-add-an-event-listener-to-all-items-in-array) - How to add an event listener to all items in array
+- [CssTricks](https://css-tricks.com/methods-contrasting-text-backgrounds/) - Methods for contrasting text against backgrounds
 
 ## Author
 
