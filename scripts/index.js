@@ -3,12 +3,12 @@ const navbarMenu = document.getElementById("navbar-menu");
 const navList = document.getElementById("navList");
 const navListHalfEmpty = document.getElementById("navListHalfEmpty");
 
-// Loading animation timeout
+// Loading animation timeout 1.5second
 setTimeout(() => {
   const loader = document.getElementById("loader-container");
   const main = document.getElementById("main");
   const footer = document.getElementById("footer");
-  // Hide animation div and display all website to prevent scrolling on animation
+  // Hide animation div and display whole website to prevent scrolling on animation
   loader.style.display = "none";
   main.style.display = "block";
   footer.style.display = "block";

@@ -44,7 +44,12 @@ body {
 
 h1,
 h2 {
-  text-shadow: white 0px 0px 100px;
+  /* text-shadow: white 0px 0px 100px; */
+  /* Better contrast */
+  -webkit-background-clip: text;
+  background-clip: text;
+  filter: grayscale(1) contrast(9)
+    drop-shadow(0.02em 0.02em rgba(255, 255, 255, 0.5));
 }
 
 h1 {
